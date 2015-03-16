@@ -8,7 +8,9 @@
  * Provides the app with the ability to display landing page content and features
  */
 angular
-  .module('SC-app-landing-page', []);;'use strict';
+  .module('SC-app-landing-page', [
+    'SC-app-content-components'
+  ]);;'use strict';
 
 /**
  * @ngdoc controller
@@ -24,7 +26,7 @@ angular.module('SC-app-landing-page')
     var landingPageAlias = $stateParams.landingPageAlias;
 
     // Override landingPageId if on home state to use the homeLandingPageId
-  	if ($state.current === 'app.home') {
+  	if ($state.current.name === 'app.home') {
 
       landingPageAlias = appConfig.homeLandingPageAlias;
 
