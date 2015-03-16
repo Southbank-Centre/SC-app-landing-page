@@ -14,7 +14,7 @@ angular.module('SC-app-landing-page')
     var landingPageAlias = $stateParams.landingPageAlias;
 
     // Override landingPageId if on home state to use the homeLandingPageId
-  	if ($state.current === 'app.home') {
+  	if ($state.current.name === 'app.home') {
 
       landingPageAlias = appConfig.homeLandingPageAlias;
 
