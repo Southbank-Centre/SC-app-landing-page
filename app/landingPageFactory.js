@@ -6,7 +6,7 @@
  * @factory
  *
  * @description
- * Factory for loading landing page data into the wowApp
+ * Factory for loading landing page data
  */
 
 angular.module('SC-app-landing-page')
