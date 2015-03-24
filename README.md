@@ -29,4 +29,8 @@ To set a particular landing page as the app's homepage, add it's path alias to t
 
 #### Routes to landing pages
 
-@TODO
+@TODO Not currently supported. In the future, a new constant could map landing page routes to the piece of CMS content that defines them, e.g.
+
+    {
+      "app.aLandingPage": "a-landing-page-123"
+    }
