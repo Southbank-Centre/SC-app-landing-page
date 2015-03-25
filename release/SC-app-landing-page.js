@@ -46,7 +46,7 @@ angular.module('SC-app-landing-page')
 
 /**
  * @ngdoc service
- * @name wowApp.factory:landingPageFactory
+ * @name SC-app-landing-page.factory:landingPageFactory
  * @factory
  *
  * @description

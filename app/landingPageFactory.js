@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc service
- * @name wowApp.factory:landingPageFactory
+ * @name SC-app-landing-page.factory:landingPageFactory
  * @factory
  *
  * @description
