@@ -1,13 +1,18 @@
 {
   "name": "SC-app-landing-page",
   "version": "0.1.0",
-  "dependencies": {
-    "angular": "~1.4.2",
-    "SC-app-utils": "Southbank-Centre/SC-app-utils#0.2.0",
-    "SC-app-content-components": "Southbank-Centre/SC-app-content-components#1.2.0"
-  },
+  "description": "Landing page app for Southbank Centre website",
+  "authors": [
+    "Sam Murray <sam.murray@southbankcentre.co.uk>",
+    "Dave Vernon <dave.vernon@southbankcentre.co.uk>"
+  ],
   "appPath": "app",
   "main": "./release/SC-app-landing-page.min.js",
+  "keywords": [
+    "landing page"
+  ],
+  "license": "MIT",
+  "private": true,
   "ignore": [
     "**/.*",
     "app",
@@ -16,5 +21,10 @@
     "package.json",
     "Gruntfile.js",
     "test"
-  ]
+  ],
+  "dependencies": {
+    "angular": "~1.4.2",
+    "SC-app-utils": "Southbank-Centre/SC-app-utils#0.2.0",
+    "SC-app-content-components": "Southbank-Centre/SC-app-content-components#1.2.0"
+  }
 }
